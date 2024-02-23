@@ -1,0 +1,37 @@
+.checkout{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.shipping-address h6{
+     text-align:center;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-left: 500px;
+}
+.common-form{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    margin-left: 500px;
+    
+}
+.form-input{
+    height:35px;
+    border: 1 px solid rgb(251, 0, 255);
+    padding-left: 15px;
+    color:rgb(7, 4, 4);
+}
+.payment-method{
+   
+    text-align: center;
+    width:300px;
+    margin-top: 100px;
+    margin-left: 60px;
+   
+}
+.message-p{
+    color:green;
+    text-align: center;
+}

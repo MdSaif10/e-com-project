@@ -1,0 +1,168 @@
+<mat-toolbar color="primary" class="navbar">
+  <span class="navbar-brand mb-0 h1"> Flipkart Lite</span>
+
+    <!------------- searchbar-------- -->
+    <form *ngIf="menuType==='default' || 'user'" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-lg-4" type="text" #searchInput (keyup)="searchProducts($event)"
+        (blur)="hideSearch()" placeholder="Search for Products & More" aria-label="Search">
+      <button class="btn btn-success my-1 my-sm-0" (click)="submitSearch(searchInput.value)"
+        type="submit">Search</button>
+      <ul class="suggested-result" *ngIf="searchResult">
+        <li class="suggested-result-list" *ngFor="let item of searchResult">
+          <a (mousedown)=redirectToDetails(item.id)>{{item.name}}</a>
+        </li>
+      </ul>
+    </form>
+  
+  <!-------------- switch default ----------->
+    <div [ngSwitch]="menuType" class="navbar-1">
+      <ul *ngSwitchCase="'default'">
+   <span routerLink="">Home </span>
+   <span routerLink="profile">Profile</span>
+   <span routerLink="cart">Cart({{cartItems}})</span>
+   <span routerLink="seller">Seller </span>
+   <span routerLink="login">Login </span>
+         </ul>
+     
+      <!-- -------------user ---------->
+      <ul *ngSwitchCase="'user'" class="navbar-2">
+        <span routerLink=""> {{userName}} </span>
+        <!-- <span> <a routerLink="">Home </a> </span> -->
+        <span routerLink="profile">Profile</span>
+        <span [routerLink]="cartItems>0?'cart':null">Cart({{cartItems}}) </span>
+        <span routerLink="my-orders">My Order </span>
+        <span routerLink="seller">Become a Seller </span>
+        <span routerLink=" " (click)="userLogout()">Logout </span>
+      </ul>
+      <!------------ seller --------->
+      <ul *ngSwitchCase="'seller'" >
+        <span> {{sellerName | titlecase}} </span>
+        <span routerLink="">Home</span>
+        <span routerLink="seller-add-products">Add Product</span>
+        <span routerLink="seller-list">List</span>
+        <span (click)="logout()">Logout</span>
+        </ul>
+    </div>
+    </mat-toolbar>
+
+
+
+
+   
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <span class="navbar-brand mb-0 h1"> Flipkart Lite</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div [ngSwitch]="menuType" class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul *ngSwitchCase="'default'" class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="">Home
+          <div routerLinkActiveOptions="{exact:true}"></div><span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="profile">Profile</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="cart">Cart({{cartItems}})</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="seller">Seller</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="login">Login</a>
+      </li>
+    </ul>
+
+    <ul *ngSwitchCase="'user'" class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link">{{userName}}</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="">Home
+          <div routerLinkActiveOptions="{exact:true}"></div><span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="profile">Profile</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" [routerLink]="cartItems>0?'cart':null">Cart({{cartItems}})</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="my-orders">My Order</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="seller">Become a Seller</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink=" " (click)="userLogout()">Logout</a>
+      </li>
+    </ul> -->
+
+
+      <!-- <form *ngIf="menuType==='user'" class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-lg-4" type="text" #searchInput (keyup)="searchProducts($event)"
+          (blur)="hideSearch()" placeholder="Search for Products & More" aria-label="Search">
+        <button class="btn btn-success my-1 my-sm-0" (click)="submitSearch(searchInput.value)"
+          type="submit">Search</button>
+        <ul class="suggested-result" *ngIf="searchResult">
+          <li *ngFor="let item of searchResult">
+            <a (mousedown)=redirectToDetails(item.id)>{{item.name}}</a>
+          </li>
+        </ul>
+      </form> -->
+
+    <!-- <ul *ngSwitchCase="'seller'" class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link"> {{sellerName | titlecase}}</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="">Home</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="seller-add-products">Add Product</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" routerLink="seller-list">List</a>
+      </li>
+
+    </ul>
+
+    <form *ngIf="menuType==='default' || 'user'" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-lg-4" type="text" #searchInput (keyup)="searchProducts($event)"
+        (blur)="hideSearch()" placeholder="Search for Products & More" aria-label="Search">
+      <button class="btn btn-success my-1 my-sm-0" (click)="submitSearch(searchInput.value)"
+        type="submit">Search</button>
+      <ul class="suggested-result" *ngIf="searchResult">
+        <li *ngFor="let item of searchResult">
+          <a (mousedown)=redirectToDetails(item.id)>{{item.name}}</a>
+        </li>
+      </ul>
+    </form>
+
+    <div>
+      <ul *ngSwitchCase="'seller'" class="navbar-nav mr-auto">
+
+        <li class="nav-item ">
+          <a class="nav-link" (click)="logout()">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+
+
+

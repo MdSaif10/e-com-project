@@ -1,0 +1,23 @@
+.update-product{
+    text-align: center;
+   color:rgb(8, 18, 70);
+}
+
+
+
+.common-form{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    margin:auto;
+}
+
+.form-input{
+    height:35px;
+    border: 1 px solid rgb(251, 0, 255);
+    padding-left: 15px;
+    color:rgb(7, 4, 4);
+}
+.message-p{
+    color:green;
+}

@@ -1,0 +1,69 @@
+<div class="cart-page">
+    <h1>Cart Page</h1>
+    <div class="row">
+        <div class="col-sm-8 details">
+            <ul *ngFor="let cart of cartData">
+                <li>
+                    <img src="{{cart.image}}"alt="">
+                </li>
+                <li>
+                    <span>{{cart.name}}</span>
+                </li>
+                <li>
+                    <span>{{cart.price}}</span>
+                </li>
+                <li>
+                    <span>{{cart.quantity}}</span>
+                </li>
+                <li>
+                    <button mat-raised-button color="warn" class="form-button" (click)="removeToCart(cart.id)">Remove To Cart</button>
+                </li>
+            </ul>
+        </div>
+        <div  class="col-sm-4 summary">
+            <div class="card">
+            <h3>Summary</h3>
+            <ul>
+                <li><span>Amount:</span><span>{{priceSummary.price}}</span></li>
+                <li><span>Tax:@10%</span><span>{{priceSummary.tax}}</span></li>
+                <li><span>Delievery:</span><span>{{priceSummary.delivery}}</span></li>
+                <li><span>Discount:@10%</span><span>{{priceSummary.discount}}</span></li>
+                <hr>
+                <li><span>
+                        <h6>Total in Rs</h6>
+                    </span>{{priceSummary.total}}</li>
+                    <button mat-raised-button color="primary" (click)="checkout()" class="form-button max-width">Checkout</button>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <p>Event Binding (click)="onCreateOrder()"</p>
+<button class="btn-btn-primary" disabled>Add Address</button>
+<hr>
+<label>Product Name</label>
+<input type="text" class="form-control"
+(input)="onUpdateProductName($event)">
+<p>{{productName}}</p>
+<br>
+
+<button class="btn-btn-primary" (click)="onCreateOrder()">Order Placed </button>
+<p>{{orderCreationStatus}}</p> -->

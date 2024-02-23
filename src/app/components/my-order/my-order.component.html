@@ -1,0 +1,80 @@
+<!-- <div class="my-orders"> 
+    <h1>My Orders</h1> -->
+     <!-- <div class="row order-data">
+         <div class="col-sm-2" >
+            <span>Product</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Order Id</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Price</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Action</span>
+        </div>
+    </div> -->
+
+    <!-- <div class="row" *ngFor="let order of orderData">
+        <div class="col-sm-2" >
+           <img class="order-img" src="https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/z/l/l/-original-imags7tpwaxawghz.jpeg?q=70" alt="">
+       </div>
+       <div class="col-sm-2">
+           <span>{{order.id}}</span>
+       </div>
+       <div class="col-sm-2">
+           <span>{{order.totalPrice}}</span>
+       </div>
+       <div class="col-sm-2">
+           <span>In Transit</span>
+       </div>
+       <div class="col-sm-2">
+           <span ><button class="form-button" (click)="deleteOrder(order.id)"> Cancel Order</button></span>         
+       </div>
+   </div> -->
+
+    <div class="my-orders">  
+    <h1 class="order-header">My Orders</h1>
+   <mat-table [dataSource]="dataSource" class="mat-elevation-z8" *ngFor="let order of orderData">
+    <!-- Position Column -->
+    <ng-container matColumnDef="product">
+      <mat-header-cell *matHeaderCellDef> Product </mat-header-cell>
+      <mat-cell *matCellDef="let element"> <img src="{{order.image}}" alt="">
+        <!-- <img class="order-img" src="https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/z/l/l/-original-imags7tpwaxawghz.jpeg?q=70" alt=""> -->
+    </mat-cell>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="order">
+      <mat-header-cell *matHeaderCellDef> Order Id </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{order.id}} </mat-cell>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="totalPrice">
+      <mat-header-cell *matHeaderCellDef> Price </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{order.totalPrice}} </mat-cell>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="status">
+      <mat-header-cell *matHeaderCellDef> Status </mat-header-cell>
+      <mat-cell *matCellDef="let element"> In Transit </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+        <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
+        <mat-cell *matCellDef="let element"> <button mat-raised-button color="warn" (click)="deleteOrder(order.id)"> Cancel Order</button> </mat-cell>
+      </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  </div>
+
+
+   
+

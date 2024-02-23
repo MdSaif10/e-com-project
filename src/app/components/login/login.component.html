@@ -1,0 +1,129 @@
+<!-- <section class="h-80 gradient-form" style="background-color: #7a4545;"> -->
+    <div class="container py-4 h-10">
+      <div class="row d-flex justify-content-center align-items-center h-10">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black">
+            <div class="row g-0">
+              <div class="col-md-6">
+                <div class="card-body p-md-6 mx-md-4">
+  
+                  <div class="text-center">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                      style="width: 185px;" alt="logo">
+                    <h4 class="mt-1 mb-5 pb-1">We are The Flipkart Lite Team</h4>
+                  </div>
+             <div *ngIf="showLogin" class="common-form">
+                  <form #userLogin="ngForm"  (ngSubmit)="onLogin(userLogin.value)">
+                    <p>Please login to your account</p>
+               
+                    <div class="form-outline mb-4">
+                      <input type="email"  class="form-control" 
+                        placeholder="User Name or email address"
+                         name="email"  ngModel 
+                         #email="ngModel"
+                         required
+                         email
+                         />
+                      <label class="form-label" >E-Mail</label>
+                      <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please Enter Valid Email</span></p>
+                    </div>
+                    
+                    <div class="form-outline mb-4">
+                      <input type="password"  class="form-control" 
+                      placeholder="Enter Password" name="password"  ngModel
+                      #password="ngModel"
+                      required
+                      minlength="4"
+                      maxlength="8"
+                      />
+                      <label class="form-label" >Password</label>
+                      <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please Enter Valid Password</span></p>
+                    </div>
+  
+                    <div class="text-center pt-1 mb-5 pb-1">
+                      <button  [disabled]="userLogin.invalid"
+                      class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
+                       type="submit">Log in</button>
+                       <p class="error-p">{{userLoginError}}</p>
+                       <p>No Account? <a (click)="openSignUp()">Create New</a> </p>
+                    </div>
+  
+                    <!-- <div class="d-flex align-items-center justify-content-center pb-4">
+                      <p>No Account? <a (click)="openSignUp()"> Create New </a> </p>
+                    </div> -->
+                    <!-- <a class="text-muted" href="#!">Forgot password?</a> -->
+                      <!-- <button class="form-button" type="submit" 
+                        class="btn btn-outline-danger">Create new</button> -->
+                    
+                  
+                  </form>
+                </div>
+                  <br>
+                 <div *ngIf="!showLogin" class="common-form">
+                  <form #userSignUp="ngForm"  (ngSubmit)="signUp(userSignUp.value)">
+                    <p>Please Sign-In to your account</p>
+  
+                    <div class="form-outline mb-4">
+                      <input type="text" class="form-control" name="name"  ngModel
+                      
+                        placeholder="Enter User Name"  />
+                      <label class="form-label" for="form2Example11">Username</label>
+                      
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input type="email" class="form-control" name="email"  ngModel
+                        placeholder="Enter E-Mail" 
+                         />
+                      <label class="form-label" >E-Mail</label>
+                    </div>
+  
+                    <div class="form-outline mb-4">
+                      <input type="password"  class="form-control" name="password"  ngModel
+                     
+                      placeholder="Enter Password"  />
+                      <label class="form-label" >Password</label>
+
+                    </div>
+  
+                    <div class="text-center pt-1 mb-5 pb-1">
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
+                       type="submit">SignUp</button>
+                       <p>Already Have Account? <a (click)="openLogin()">Click Here</a></p>
+                     
+                    </div>
+                    
+                    <!-- <div class="d-flex align-items-center justify-content-center pb-4">
+                      <p class="mb-0 me-2">Don't have an account?</p>
+                      <button class="form-button" type="submit" 
+                      class="btn btn-outline-danger">Create new</button>
+                    </div> -->
+                  
+                  </form>
+                </div>
+  
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center gradient-custom-2">
+                <div class="text-white px-3 py-4 p-md-6 mx-md-4">
+                  <h4 class="mb-4">We are more than just a company</h4>
+                  <p class="small mb-0">Flipkart Private Limited is an Indian e-commerce company established in 2007. It started with a primary focus on online book sales and soon, expanded to lifestyle products, electronics, home essentials and groceries. Today, Flipkart is the biggest online Indian marketplace competing with the world leader Amazon.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </section> -->
+
+
+
+
+
+
+  <!-- <div class="form-outline mb-4">
+    <input type="email" id="form2Example11" class="form-control" formControlName="username"
+      placeholder="Phone number or email address" />
+    <label class="form-label" for="form2Example11">Username</label>
+  </div> -->

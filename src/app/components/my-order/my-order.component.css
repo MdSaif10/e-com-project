@@ -1,0 +1,18 @@
+.my-orders .order-img{
+    width:100px;
+    height:100px;
+}
+.order-data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #ddd;
+}
+table {
+    width: 100%;
+  }
+ .my-orders .order-header{
+        margin-top: 7px;
+        margin-bottom: 15px;
+        text-align: center; 
+  }

@@ -1,0 +1,62 @@
+<ngb-carousel *ngIf="popularProducts">
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a class="carousel-control-prev" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span></a>
+
+      <a class="carousel-control-next" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span></a>
+
+      <a routerLink="/p-details/{{item.id}}"> <img class="product-header-img" src="{{item.image}}"
+          alt="Random first slide">
+      </a>
+    </div>
+    <hr>
+    <div class="carousel-caption">
+      <p>Rs: {{item.price}}</p>
+      <h6>{{item.name}}</h6>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+
+<div class="center">
+    <h5 class="label">Trending Products (See Below)</h5>
+</div>
+<div class="product-list-wrapper">
+  <div class="row">
+    <div class="col-md-3" *ngFor="let item of trendingProducts">
+      <div class="product-item">
+        <div class="product-image">
+          <a routerLink="/p-details/{{item.id}}"> <img src="{{item.image}}"></a>
+        </div>
+        <div class="product-details">
+          <h5 class="name-head" routerLink="/p-details/{{item.id}}">{{item.name}}</h5>
+          <div class="product-price">
+            <h6>Price: {{item.price}}</h6>
+          </div>
+          <div class="product-color">
+          <h6>Color:<i>{{item.color}}</i></h6>
+          </div>
+        </div>
+        <!-- <div class="product-footer">
+              <button mat-raised-button color="primary" *ngIf="!removeCart" routerLink="/p-details/{{item.id}}">View Details</button>
+              <button mat-raised-button color="warn" (click)="AddToCart()">Add to Cart</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+
+  

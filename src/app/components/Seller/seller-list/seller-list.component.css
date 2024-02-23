@@ -1,0 +1,14 @@
+table{
+    text-align:left;
+    color:grey;
+    border-collapse:collapse;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+table td, table th{
+    border: 1px solid grey;
+    padding: 10 px;
+    min-width:100pxs;
+}

@@ -1,0 +1,600 @@
+{
+  "seller": [
+    {
+      "id": 1
+    },
+    {
+      "name": "Md Saif",
+      "email": "md1012@gmail",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Md Saif",
+      "email": "md1012@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "Md Saif",
+      "email": "md1012@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "Md Shadab",
+      "email": "shad1012@gmail.com",
+      "password": "56785678",
+      "id": 5
+    },
+    {
+      "name": "Md Jawed",
+      "email": "jawed0511@gmail.com",
+      "password": "87654321",
+      "id": 6
+    },
+    [
+      {
+        "name": "Md Jawed",
+        "email": "jawed0511@gmail.com",
+        "password": "87654321"
+      },
+      {
+        "name": "Md Ghazi",
+        "email": "jawed0511@gmail.com",
+        "password": "87654321"
+      }
+    ],
+    {
+      "name": "Md Farukh",
+      "email": "farukhad0511@gmail.com",
+      "password": "9900087654",
+      "id": 8
+    },
+    {
+      "name": "Md Sharukh",
+      "email": "Sharukhad0511@gmail.com",
+      "password": "9900087654",
+      "id": 9
+    },
+    {
+      "name": "Md Adil",
+      "email": "adil12@gmail.com",
+      "password": "1234adil",
+      "id": 18
+    },
+    {
+      "name": "Md Abdil",
+      "email": "abdil12@gmail.com",
+      "password": "1234badil",
+      "id": 22
+    },
+    {
+      "name": "Md Saif",
+      "email": "yahoobaba@gmail.com",
+      "password": "909090",
+      "id": 181
+    },
+    {
+      "name": "Md Jafir",
+      "email": "jafir@test.com",
+      "password": "993121",
+      "id": 182
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 183
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 184
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 185
+    },
+    {
+      "name": "Md Saif",
+      "email": "saif@test.com",
+      "password": "912318",
+      "id": 186
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 187
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 188
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 189
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 190
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 191
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 192
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 193
+    }
+  ],
+  "products": [
+    {
+      "name": "One Plus Nord Ce2 Lite",
+      "price": "18000",
+      "category": "Mobile",
+      "color": "Blue",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/w/k/-original-imagg2abzhxjckxu.jpeg?q=70",
+      "description": "Nice Mobile.. best Camera quality",
+      "id": 12
+    },
+    {
+      "name": "LEADER E-Power  Electric Cycle",
+      "price": "27000",
+      "category": "Bicycle",
+      "color": "Black",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/electric-cycle/g/2/b/-original-imagrzvgrh7u7hrf.jpeg?q=70",
+      "description": " The brand is reckoned for its high built quality and great reliability",
+      "id": 13
+    },
+    {
+      "name": "Analog Watch  for Women KK-10028-33",
+      "price": "2500",
+      "category": "Analog Watch",
+      "color": "Silver",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/6/l/l/1-kk-10028-33-klaus-kobec-women-original-imagusvpbqskgyrg.jpeg?q=70",
+      "description": "Analog watch for women",
+      "id": 14
+    },
+    {
+      "name": "SONY A80L 194.7 cm (77 inch) OLED Ultra HD",
+      "price": "440000",
+      "category": "Television",
+      "color": "Black",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/l/f/r/-original-imagvgcjkgunpzhh.jpeg?q=70",
+      "description": "Smart Tv ",
+      "id": 15
+    },
+    {
+      "name": "Bharat Lifestyle Tulip Fabric 3 Seater Sofa",
+      "price": "8000",
+      "category": "Sofa",
+      "color": "Blue",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/sofa-sectional/y/b/x/-original-imagqz22pejkdcfa.jpeg?q=70",
+      "description": "Best comfy 3 seater sofa for hall room area",
+      "id": 16
+    },
+    {
+      "name": "Jhoomar Lamp Ceiling Light For Living Room",
+      "price": "3000",
+      "category": "Ceiling Light",
+      "color": "Purple",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kz4gh3k0/ceiling-lamp/3/z/o/3-26-29-1-cl-1675-uhug-shri-mahal-antiques-original-imagb7d85rzgfynj.jpeg?q=70",
+      "description": "We offer pieces with unique designs",
+      "id": 17
+    },
+    {
+      "name": "Men Full Sleeve Printed Sweatshirt",
+      "price": "700",
+      "category": "Sweatshirt",
+      "color": "Brown",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/s/s/l/xl-2003-sw-maroon-flag-magneto-original-imagus4z8dhbdczz.jpeg?q=70",
+      "description": "Best for winter season",
+      "id": 18
+    },
+    {
+      "name": "Hero Xtreme 160R (Double Disc)",
+      "price": "123000",
+      "category": "Bike",
+      "color": "Blue",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/motorcycle/q/4/i/single-disc-self-kick-disc-xtreme-160r-163-pan-india-hero-original-imagnrgveh4ubvxa.jpeg?q=70",
+      "description": "The power accelerator you always wanted. The stylish headturner. Now go on, own the roads, like you always imagined.",
+      "id": 19
+    },
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1600",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "id": 20
+    },
+    {
+      "name": "SAMSUNG Galaxy Z Fold5",
+      "price": "149000",
+      "category": "Mobile",
+      "color": "Grey",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/2/r/galaxy-fold5-sm-f946blbhins-samsung-original-imagru5ugghfnwnj.jpeg?q=70",
+      "description": "Enjoy seamless connectivity and uninterrupted streaming on this foldable, light and compact Samsung Galaxy Z Fold5 smartphone.",
+      "id": 21
+    },
+    {
+      "name": "Men Printed Round Neck Pure Cotton Red T-Shirt",
+      "price": "1000",
+      "category": "T- Shirt",
+      "color": "Red",
+      "image": "https://rukminim2.flixcart.com/image/832/832/km9ht3k0/t-shirt/z/k/x/m-gk9124-adidas-original-imagf7g6ggqcezzc.jpeg?q=70",
+      "description": "Best T-Shirt for summer",
+      "id": 22
+    },
+    {
+      "name": "BOSCH Universal Aquatak 125 Pressure Washer",
+      "price": "10000",
+      "category": "Washer",
+      "color": "Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kjom6q80/car-pressure-washer/j/c/m/universal-aquatak-125-bosch-original-imafz79hhnrrfs5z.jpeg?q=70",
+      "description": "Adil will use this product for clean his shop.",
+      "id": 23
+    },
+    {
+      "name": "SONY Alpha ILCE-6100Y",
+      "price": "80000",
+      "category": "Camera",
+      "color": "Black",
+      "image": "https://rukminim2.flixcart.com/image/832/832/k3q76a80/camera/x/u/e/sony-apsc-ilce-6100y-b-in5-mirrorless-original-imafm6msr4fghzfw.jpeg?q=70",
+      "description": "Featuring a 24.2-megapixel Exmor CMOS image sensor and the BIONZ X image processor, this mirrorless camera from Sony offers low-noise performance to ensure that your images are crystal clear. It also takes advantage of the AF Tracking Technology, so you can even click pictures of moving objects without any hassle.",
+      "id": 24
+    }
+  ],
+  "users": [
+    {
+      "name": "Samir Khan",
+      "email": "samir10@gmail.com",
+      "password": "989898",
+      "id": 1
+    },
+    {
+      "name": "Naman",
+      "email": "naman@123",
+      "password": "909090",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "987987",
+      "id": 3
+    },
+    {
+      "name": "Shajid Usman",
+      "email": "shajid@test.com",
+      "password": "shajid9090",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "908908",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "Water Bottle",
+      "email": "wbwb@test.com",
+      "password": "909090",
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "name": "Samiur Khan",
+      "email": "samiur@test.com",
+      "password": "ara123",
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "name": "Md Saif",
+      "email": "saif@best.com",
+      "password": "909090",
+      "id": 12
+    },
+    {
+      "name": "Md Ghazi",
+      "email": "ghazi@gmail.com",
+      "password": "090909",
+      "id": 13
+    },
+    {
+      "name": "Md Saif",
+      "email": "md4293779@gmail.com",
+      "password": "909090",
+      "id": 14
+    },
+    {
+      "name": "Md Haris",
+      "email": "haris@test.com",
+      "password": "121212",
+      "id": 15
+    },
+    {
+      "name": "Md Rauf",
+      "email": "rauf@test.com",
+      "password": "808080",
+      "id": 16
+    },
+    {
+      "name": "Rohit Sharma",
+      "email": "rohit@test.com",
+      "password": "454545",
+      "id": 17
+    },
+    {
+      "name": "Md Adil",
+      "email": "adil@test.com",
+      "password": "050505",
+      "id": 18
+    }
+  ],
+  "cart": [
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1599",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "quantity": 1,
+      "productId": 20,
+      "userId": null,
+      "id": 7
+    },
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1599",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "quantity": 1,
+      "productId": 20,
+      "userId": null,
+      "id": 8
+    },
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1599",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "quantity": 1,
+      "productId": 20,
+      "userId": null,
+      "id": 9
+    },
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1599",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "quantity": 1,
+      "productId": 20,
+      "userId": null,
+      "id": 10
+    },
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1599",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "quantity": 1,
+      "productId": 20,
+      "userId": null,
+      "id": 11
+    },
+    {
+      "name": "Men Regular Fit Printed Button Down Collar Casual Shirt",
+      "price": "1599",
+      "category": "Shirt",
+      "color": " Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/x/q/c/m-udshtfx0039-u-s-polo-assn-denim-co-original-imaghkk3q5trrde2.jpeg?q=70",
+      "description": "Shirt for casual occasion",
+      "quantity": 1,
+      "productId": 20,
+      "userId": null,
+      "id": 12
+    },
+    {
+      "name": "Jhoomar Lamp Ceiling Light For Living Room",
+      "price": "2899",
+      "category": "Ceiling Light",
+      "color": "Purple",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kz4gh3k0/ceiling-lamp/3/z/o/3-26-29-1-cl-1675-uhug-shri-mahal-antiques-original-imagb7d85rzgfynj.jpeg?q=70",
+      "description": "We offer pieces with unique designs",
+      "quantity": 1,
+      "productId": 17,
+      "userId": null,
+      "id": 17
+    },
+    {
+      "name": "BOSCH Universal Aquatak 125 Pressure Washer",
+      "price": "1",
+      "category": "Washer",
+      "color": "Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kjom6q80/car-pressure-washer/j/c/m/universal-aquatak-125-bosch-original-imafz79hhnrrfs5z.jpeg?q=70",
+      "description": "Adil will use this product for clean his shop.",
+      "quantity": 1,
+      "productId": 23,
+      "userId": null,
+      "id": 18
+    },
+    {
+      "name": "Jhoomar Lamp Ceiling Light For Living Room",
+      "price": "3000",
+      "category": "Ceiling Light",
+      "color": "Purple",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kz4gh3k0/ceiling-lamp/3/z/o/3-26-29-1-cl-1675-uhug-shri-mahal-antiques-original-imagb7d85rzgfynj.jpeg?q=70",
+      "description": "We offer pieces with unique designs",
+      "quantity": 1,
+      "userId": 18,
+      "productId": 17,
+      "id": 19
+    },
+    {
+      "name": "SAMSUNG Galaxy Z Fold5",
+      "price": "149000",
+      "category": "Mobile",
+      "color": "Grey",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/3/2/r/galaxy-fold5-sm-f946blbhins-samsung-original-imagru5ugghfnwnj.jpeg?q=70",
+      "description": "Enjoy seamless connectivity and uninterrupted streaming on this foldable, light and compact Samsung Galaxy Z Fold5 smartphone.",
+      "quantity": 1,
+      "userId": 18,
+      "productId": 21,
+      "id": 20
+    },
+    {
+      "name": "BOSCH Universal Aquatak 125 Pressure Washer",
+      "price": "10000",
+      "category": "Washer",
+      "color": "Green",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kjom6q80/car-pressure-washer/j/c/m/universal-aquatak-125-bosch-original-imafz79hhnrrfs5z.jpeg?q=70",
+      "description": "Adil will use this product for clean his shop.",
+      "quantity": 1,
+      "userId": 18,
+      "productId": 23,
+      "id": 21
+    },
+    {
+      "name": "LEADER E-Power  Electric Cycle",
+      "price": "27000",
+      "category": "Bicycle",
+      "color": "Black",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/electric-cycle/g/2/b/-original-imagrzvgrh7u7hrf.jpeg?q=70",
+      "description": " The brand is reckoned for its high built quality and great reliability",
+      "quantity": 1,
+      "userId": 10,
+      "productId": 13,
+      "id": 22
+    },
+    {
+      "name": "Jhoomar Lamp Ceiling Light For Living Room",
+      "price": "3000",
+      "category": "Ceiling Light",
+      "color": "Purple",
+      "image": "https://rukminim2.flixcart.com/image/832/832/kz4gh3k0/ceiling-lamp/3/z/o/3-26-29-1-cl-1675-uhug-shri-mahal-antiques-original-imagb7d85rzgfynj.jpeg?q=70",
+      "description": "We offer pieces with unique designs",
+      "quantity": 1,
+      "userId": 12,
+      "productId": 17,
+      "id": 25
+    },
+    {
+      "name": "One Plus Nord Ce2 Lite",
+      "price": "18000",
+      "category": "Mobile",
+      "color": "Blue",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/w/k/-original-imagg2abzhxjckxu.jpeg?q=70",
+      "description": "Nice Mobile.. best Camera quality",
+      "quantity": 1,
+      "userId": 12,
+      "productId": 12,
+      "id": 26
+    },
+    {
+      "name": "LEADER E-Power  Electric Cycle",
+      "price": "27000",
+      "category": "Bicycle",
+      "color": "Black",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/electric-cycle/g/2/b/-original-imagrzvgrh7u7hrf.jpeg?q=70",
+      "description": " The brand is reckoned for its high built quality and great reliability",
+      "quantity": 1,
+      "userId": 12,
+      "productId": 13,
+      "id": 27
+    },
+    {
+      "name": "SONY A80L 194.7 cm (77 inch) OLED Ultra HD",
+      "price": "440000",
+      "category": "Television",
+      "color": "Black",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/l/f/r/-original-imagvgcjkgunpzhh.jpeg?q=70",
+      "description": "Smart Tv ",
+      "quantity": 1,
+      "userId": 12,
+      "productId": 15,
+      "id": 28
+    }
+  ],
+  "orders": [
+    {
+      "email": "adil@test.com",
+      "name": "Md Adil",
+      "contact": "9931218162",
+      "address": "12400 High Bluff Drive # 100",
+      "totalPrice": 162100,
+      "userId": 18,
+      "id": 1
+    },
+    {
+      "email": "",
+      "name": "",
+      "contact": "",
+      "address": "",
+      "totalPrice": 27100,
+      "userId": 10,
+      "id": 2
+    },
+    {
+      "email": "",
+      "name": "",
+      "contact": "",
+      "address": "",
+      "totalPrice": 48100,
+      "userId": 12,
+      "action": "",
+      "product": 0,
+      "order": "",
+      "id": 4
+    }
+  ]
+}
